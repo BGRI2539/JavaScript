@@ -1,0 +1,62 @@
+/* General body and page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #5d5d5d;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #4d4d4d;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+#studentId {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Layout adjustments for sections */
+section {
+    margin: 30px 0;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #333;
+}
