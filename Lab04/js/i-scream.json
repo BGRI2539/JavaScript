@@ -26,13 +26,12 @@
         "calories": 140,
         "type": "ice-cream",
         "ingredients": ["Milk", "Lemon Concentrate", "Sugar", "Sprinkles"],
-        "image": "../images/ice-cream-xtra1.svg"
-      },
-      {
+        "image": "https://bgri2539.github.io/JavaScript/Lab04/images/ice-cream-xtra1.svg"
+    }, {
         "name": "Cookie Dough",
         "calories": 400,
         "type": "ice-cream",
         "ingredients": ["Milk", "Cookie Dough", "Chocolate Chips"],
-        "image": "../images/ice-cream-xtra2.svg"
-      }]
+        "image": "https://bgri2539.github.io/JavaScript/Lab04/images/ice-cream-xtra2.svg"
+    }]
 }
