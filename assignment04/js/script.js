@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fetch weather data from OpenWeatherMap and display it.
-
 function fetchWeatherData() {
   const apiKey = "928f9debac31dd1a0ce57190fb1a4860";
   const city = "Orillia";
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=44.60&lon=79.41&appid=928f9debac31dd1a0ce57190fb1a4860";
+`;
 
   fetch(apiUrl)
     .then(response => response.json())
